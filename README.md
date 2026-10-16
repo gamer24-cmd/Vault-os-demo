@@ -1,11 +1,9 @@
-# VAULT OS — Demo
+# VAULT OS v0.6 Mobile Operations
 
-Static prototype for testing drive and delivery logs with fictional data. No real drive scanning, backup verification, server connection, or AI integration.
+Upload **all files** in this folder to the root of your GitHub Pages repository (not just index.html). Keep existing local JSON backups.
 
-## GitHub Pages
-1. Create a public repository named `vault-os-demo` (use only fictional data and no secrets).
-2. Upload `index.html` and `.nojekyll` to the repository root.
-3. In Settings > Pages, select Deploy from a branch, branch `main`, folder `/(root)`, and Save.
-4. Open the Pages URL shown in Settings > Pages after deployment.
+New: mobile card layout fix, responsive navigation, PWA manifest, installable home-screen experience, service worker for offline shell, quick drive lookup, optional browser QR scanning where BarcodeDetector is supported, and printable text labels.
 
-Note: This is a public static demo. Do not enter confidential company information. Browser storage may be device-specific and is not a production database.
+**Limitations:** QR generation is not implemented; labels are text only. QR scanning requires a QR containing the exact drive label and a browser that supports BarcodeDetector. No multi-device sync, authentication, cloud service, actual backup verification, or company-data protection. Browser localStorage is per-device. Demo only, fictitious data.
+
+To install on iPhone: open GitHub Pages URL in Safari, Share > Add to Home Screen. Safari camera scanning support varies; manual lookup always available. PWA caching may require refresh after updates.
