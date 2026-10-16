@@ -1,9 +1,7 @@
-# VAULT OS v0.6 Mobile Operations
+VAULT OS v0.7 — Command Center
 
-Upload **all files** in this folder to the root of your GitHub Pages repository (not just index.html). Keep existing local JSON backups.
+Upload all files in this folder to the root of the GitHub Pages repository. Export Records (JSON) first.
 
-New: mobile card layout fix, responsive navigation, PWA manifest, installable home-screen experience, service worker for offline shell, quick drive lookup, optional browser QR scanning where BarcodeDetector is supported, and printable text labels.
+New: per-project risk overview based on local manual records; delivery preflight confirmation; downloadable JSON readiness report. Existing v0.6 mobile interface and PWA assets retained.
 
-**Limitations:** QR generation is not implemented; labels are text only. QR scanning requires a QR containing the exact drive label and a browser that supports BarcodeDetector. No multi-device sync, authentication, cloud service, actual backup verification, or company-data protection. Browser localStorage is per-device. Demo only, fictitious data.
-
-To install on iPhone: open GitHub Pages URL in Safari, Share > Add to Home Screen. Safari camera scanning support varies; manual lookup always available. PWA caching may require refresh after updates.
+IMPORTANT: No media inspection, backup verification, enterprise authentication, synchronization or actual delivery verification. Public demo: use synthetic records only.
